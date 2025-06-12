@@ -37,7 +37,7 @@ class FaseResultadosStrategy implements FaseStrategy {
 }
 
 class FaseContext {
-  private estrategia: FaseStrategy;
+  private readonly estrategia: FaseStrategy;
 
   constructor(fase: "Diseño" | "Resultados") {
     this.estrategia =
